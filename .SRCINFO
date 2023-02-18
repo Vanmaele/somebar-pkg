@@ -1,0 +1,19 @@
+pkgbase = sombar-xorell-git
+	pkgdesc = Simple, hackable dynamic tiling Wayland compositor (dwm for Wayland)
+	pkgver=1.0.3.r2.624e929
+	pkgrel = 1
+	url="https://git.sr.ht/~raphi/somebar"
+	arch = x86_64
+	license= 'GPL'
+	depends= 'meson'
+	makedepends= 'meson' 'git' 'wayland-protocols'
+	optdepends= 'xorg-xwayland: for XWayland support'
+	provides = somebar 
+	conflicts = somebar
+	source = git+https://git.sr.ht/~raphi/somebar
+	source = config.hpp
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = dwl-xorell-git
+
