@@ -19,6 +19,7 @@ sha256sums=('SKIP')
 prepare() {
 	cd "$srcdir/${pkgname%-xorell-git}"
 
+	patch -p1 -t --input "$BUILDDIR/ipc-dwl.patch"
 	patch -p1 -t --input "contrib/hide-vacant-tags.patch"
 	patch -p1 -t --input "contrib/markup-in-status-messages.patch"
 
