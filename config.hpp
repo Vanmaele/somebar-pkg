@@ -13,8 +13,8 @@ constexpr int paddingY = 3;
 constexpr const char* font = "NotoSansMono Nerd Font Mono 14";
 /* constexpr const char* font = "CousineNerdFont 14"; */
 
-constexpr ColorScheme colorInactive = {Color(0xff, 0xff, 0xff), Color(0x56, 0x58, 0x64)};
-constexpr ColorScheme colorActive = {Color(0xff, 0xff, 0xff), Color(0x28, 0x2A, 0x36)};
+constexpr ColorScheme colorInactive = {Color(0xff, 0xff, 0xff), Color(0x44, 0x44, 0x44)};
+constexpr ColorScheme colorActive = {Color(0xff, 0xff, 0xff), Color(0x22, 0x22, 0x22)};
 
 constexpr const char* termcmd[] = {"foot", nullptr};
 
